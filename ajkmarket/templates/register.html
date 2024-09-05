@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Register Page
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <form method="POST" class="form-register" style="color:rgb(255, 187, 0)">
+            <!-- image here-->
+             <h1 class="h3 nb-3 font-weight-normal">
+                Please Create Your Account
+             </h1>
+            {{ form.hidden_tag() }}  <!-- For CSRF protection -->
+
+            <!-- Username Field -->
+            <div class="form-group">
+                {{ form.username.label(class="form-label") }}
+                {{ form.username(class="form-control", placeholder="Username") }}
+                {% for error in form.username.errors %}
+                    <span class="text-danger">{{ error }}</span>
+                {% endfor %}
+            </div>
+
+            <!-- Email Address Field -->
+            <div class="form-group">
+                {{ form.email_address.label(class="form-label") }}
+                {{ form.email_address(class="form-control", placeholder="Email Address") }}
+                {% for error in form.email_address.errors %}
+                    <span class="text-danger">{{ error }}</span>
+                {% endfor %}
+            </div>
+
+            <!-- Password Field -->
+            <div class="form-group">
+                {{ form.password1.label(class="form-label") }}
+                {{ form.password1(class="form-control", placeholder="Password") }}
+                {% for error in form.password1.errors %}
+                    <span class="text-danger">{{ error }}</span>
+                {% endfor %}
+            </div>
+
+            <!-- Confirm Password Field -->
+            <div class="form-group">
+                {{ form.password2.label(class="form-label") }}
+                {{ form.password2(class="form-control", placeholder="Confirm Password") }}
+                {% for error in form.password2.errors %}
+                    <span class="text-danger">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <div class="checkbox mb-3">
+                <h6>Already have an account?</h6>
+                <a class="btn btn-sm btn-secondary" href="{{ url_for('login_page') }}">Sign up</a>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                {{ form.submit(class="btn btn-primary") }}
+            </div>
+        </form>
+    </div>
+{% endblock %}
