@@ -5,12 +5,12 @@ from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 
 # Create your views here.
-@login_required
 def index(request):
     return render(request, 'home.html')
 
-def landing(request):
-    return render(request, 'landing.html')
+@login_required
+def market(request):
+    return render(request, 'market.html')
 
 def loginview(request):
 
