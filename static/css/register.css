@@ -1,0 +1,102 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;  /* Sets a clean, readable font */
+    background-color: #f4f4f4;       /* Light background color */
+    margin: 0;                       /* Removes default margin */
+    padding: 0;                      /* Removes default padding */
+    display: flex;                   /* Flexbox for centering */
+    justify-content: center;         /* Centers content horizontally */
+    align-items: center;             /* Centers content vertically */
+    height: 100vh;                   /* Full height of the viewport */
+}
+
+/* Container for the form */
+.container {
+    background-color: #fff;          /* White background for contrast */
+    padding: 20px;                   /* Padding inside the container */
+    border-radius: 8px;              /* Rounds corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    width: 100%;                     /* Full width */
+    max-width: 400px;                /* Max width of 400px */
+}
+
+/* Form styling */
+.form-register {
+    color: rgb(255, 187, 0);         /* Yellowish form text */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;             /* Space between form fields */
+}
+
+/* Label styling */
+.form-label {
+    display: block;                  /* Block-level element */
+    margin-bottom: 5px;              /* Space below the label */
+}
+
+/* Input fields */
+.form-control {
+    width: 100%;                     /* Full width */
+    padding: 10px;                   /* Padding inside input */
+    border: 1px solid #ddd;          /* Light border */
+    border-radius: 4px;              /* Rounded corners */
+    box-sizing: border-box;          /* Padding inside width */
+}
+
+/* Error message styling */
+.text-danger {
+    color: red;                      /* Error text in red */
+    display: block;                  /* Block-level element */
+    margin-top: 5px;                 /* Space above error text */
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;           /* Block-level button */
+    padding: 10px 20px;              /* Padding inside button */
+    border: none;                    /* No border */
+    border-radius: 4px;              /* Rounded corners */
+    color: #fff;                     /* White text */
+    text-align: center;              /* Centered text */
+    text-decoration: none;           /* No underline */
+    cursor: pointer;                 /* Pointer on hover */
+}
+
+/* Primary button styling */
+.btn-primary {
+    background-color: #007bff;       /* Bootstrap's primary blue */
+}
+
+/* Secondary button styling */
+.btn-secondary {
+    background-color: #6c757d;       /* Bootstrap's secondary gray */
+}
+
+/* Checkbox styling */
+.checkbox {
+    margin-bottom: 15px;             /* Space below checkbox */
+}
+
+/* Heading styling */
+.h3 {
+    font-size: 1.75em;               /* Font size */
+    margin-bottom: 15px;             /* Space below heading */
+}
+
+/* Extra spacing */
+.nb-3 {
+    margin-bottom: 3px;              /* Small space below heading */
+}
+
+/* Error box styling */
+.error {
+    background-color: #f8d7da;       /* Light red background */
+    color: #721c24;                  /* Darker red text */
+    margin-bottom: 15px;             /* Space below error box */
+    padding: 10px;                   /* Padding inside the box */
+    border-radius: 4px;              /* Rounded corners */
+    text-align: center;              /* Centered text */
+    margin-top: 10px;                /* Space above error box */
+}

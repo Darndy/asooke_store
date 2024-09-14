@@ -1,155 +1,175 @@
+/* Global body styling */
 body {
-    background-color: #222025;
-    color: #f5b506;
-    font-family: Arial, sans-serif;
-  }
-  
-  .navbar-custom {
-    background-color: #0d0d24;
-  }
-  
-  .navbar-custom .navbar-brand,
-  .navbar-custom .nav-link {
-    color: #f5b506;
-  }
-  
-  .navbar-custom .nav-link:hover {
-    color: #0539e4;
-  }
-  
-  .hero-section {
-    background-image: url('https://via.placeholder.com/1600x500');
-    background-size: cover;
-    background-position: center;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  }
-  
-  .my-5 h2 {
-    color: #d80a0a;
-    text-align: right;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-right: 100px;
-  }
-  
-  .my-5 h3 {
-    color: #ffa600;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 80px;
-    margin-bottom: 30px;
-  }
-  
-  .gallery1 {
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .gallery1 img {
-    max-width: 20%;
-    height: fit-content;
-    border-radius: 40px;
-    margin-bottom: 60;
-  }
-  
-  .gallery1 h4 {
-    color: #da0c0c;
-    margin-top: 10px;
-    border-color: #f5b506;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
-  .gallery1 h3 {
-    color: #fda707;
-    text-align: left;
-    margin-top: 90px;
-  }
-  
-  .my-6 h2 {
-    color: #fdad00;
-    text-align: right;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-right: 50px;
-  }
-  
-  .my-6 h2 {
-    color: #eb8500;
-    text-align: left;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-  }
-  
-  .my-6 h3 {
-    font-size: 30px;
-    color: #ffbb00;
-    text-align: center;
-    margin-top: 80px;
-    margin-left: 50px;
-    margin-bottom: 5px;
-  }
-  
-  .gallery2 h4 {
-    color: #df0909;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 10px;
-    text-align: center;
-    margin-bottom: 80px;
-    font-style: unset;
-  }
-  
-  .gallery2 {
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .gallery2 img {
-    max-width: 20%;
-    border-radius: 40px;
-    margin-bottom: 80px;
-    margin-top: 1px;
-  }
-  
-  .hero-section h1 {
-    font-size: 4rem;
-  }
-  
-  .gallery3 {
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .gallery3 img {
-    max-width: 50%;
-    border-radius: 40px;
-    margin-bottom: 80px;
-    margin-top: 1px;
-  }
-  
-  footer {
-    background-color: #0d0d24;
-    color: #fff;
-    text-align: center;
-    padding: 60px 0;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
+  background-color: #222025;      /* Dark background color */
+  color: #f5b506;                 /* Yellowish text color */
+  font-family: Arial, sans-serif; /* Font family set to Arial */
+}
+
+/* Navbar styling */
+.navbar-custom {
+  background-color: #0d0d24;      /* Dark background for the navbar */
+}
+
+/* Navbar brand and links styling */
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #f5b506;                 /* Yellow text for brand and links */
+}
+
+/* Hover effect for navbar links */
+.navbar-custom .nav-link:hover {
+  color: #0539e4;                 /* Change to blue when hovered */
+}
+
+/* Hero section styling */
+.hero-section {
+  background-image: url('https://via.placeholder.com/1600x500'); /* Background image for the hero section */
+  background-size: cover;          /* Cover entire section */
+  background-position: center;     /* Center the background image */
+  height: 100px;                   /* Height of the hero section */
+  display: flex;                   /* Flexbox layout */
+  align-items: center;             /* Vertically center the content */
+  justify-content: center;         /* Horizontally center the content */
+  color: white;                    /* White text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow effect */
+}
+
+/* My-5 h2 heading styling */
+.my-5 h2 {
+  color: #d80a0a;                 /* Red text color */
+  text-align: right;               /* Align text to the right */
+  margin-top: 30px;                /* Top margin */
+  margin-bottom: 20px;             /* Bottom margin */
+  margin-right: 100px;             /* Right margin */
+}
+
+/* My-5 h3 heading styling */
+.my-5 h3 {
+  color: #ffa600;                 /* Orange text color */
+  text-align: left;               /* Align text to the left */
+  margin-top: 20px;               /* Top margin */
+  margin-left: 80px;              /* Left margin */
+  margin-bottom: 30px;            /* Bottom margin */
+}
+
+/* Gallery1 section styling */
+.gallery1 {
+  display: flex;                  /* Flexbox layout */
+  align-items: top;               /* Align items at the top */
+  justify-content: space-between; /* Space between images */
+  margin-bottom: 20px;            /* Bottom margin */
+}
+
+/* Gallery1 images styling */
+.gallery1 img {
+  max-width: 20%;                 /* Image width is 20% of container */
+  height: fit-content;            /* Fit image height */
+  border-radius: 40px;            /* Rounded corners */
+  margin-bottom: 60px;            /* Bottom margin */
+}
+
+/* Gallery1 h4 heading styling */
+.gallery1 h4 {
+  color: #da0c0c;                 /* Red text color */
+  margin-top: 10px;               /* Top margin */
+  border-color: #f5b506;          /* Yellow border color */
+  margin-left: 20px;              /* Left margin */
+  margin-right: 20px;             /* Right margin */
+}
+
+/* Gallery1 h3 heading styling */
+.gallery1 h3 {
+  color: #fda707;                 /* Yellow-orange text color */
+  text-align: left;               /* Align text to the left */
+  margin-top: 90px;               /* Large top margin */
+}
+
+/* My-6 h2 heading styling */
+.my-6 h2 {
+  color: #fdad00;                 /* Orange text color */
+  text-align: right;              /* Align text to the right */
+  margin-top: 30px;               /* Top margin */
+  margin-bottom: 20px;            /* Bottom margin */
+  margin-right: 50px;             /* Right margin */
+}
+
+/* My-6 second h2 heading styling */
+.my-6 h2 {
+  color: #eb8500;                 /* Darker orange text color */
+  text-align: left;               /* Align text to the left */
+  margin-top: 40px;               /* Top margin */
+  margin-bottom: 20px;            /* Bottom margin */
+  margin-left: 100px;             /* Left margin */
+}
+
+/* My-6 h3 heading styling */
+.my-6 h3 {
+  font-size: 30px;                /* Set font size */
+  color: #ffbb00;                 /* Bright yellow color */
+  text-align: center;             /* Center the text */
+  margin-top: 80px;               /* Large top margin */
+  margin-left: 50px;              /* Left margin */
+  margin-bottom: 5px;             /* Small bottom margin */
+}
+
+/* Gallery2 section styling */
+.gallery2 h4 {
+  color: #df0909;                 /* Red text color */
+  margin-top: 10px;               /* Top margin */
+  margin-left: 20px;              /* Left margin */
+  margin-right: 10px;             /* Right margin */
+  text-align: center;             /* Center the text */
+  margin-bottom: 80px;            /* Large bottom margin */
+  font-style: unset;              /* Reset font style */
+}
+
+/* Gallery2 section layout */
+.gallery2 {
+  display: flex;                  /* Flexbox layout */
+  align-items: top;               /* Align items at the top */
+  justify-content: space-between; /* Space between items */
+  margin-bottom: 20px;            /* Bottom margin */
+}
+
+/* Gallery2 images styling */
+.gallery2 img {
+  max-width: 20%;                 /* Image width is 20% of container */
+  border-radius: 40px;            /* Rounded corners */
+  margin-bottom: 80px;            /* Large bottom margin */
+  margin-top: 1px;                /* Small top margin */
+}
+
+/* Hero section heading styling */
+.hero-section h1 {
+  font-size: 4rem;                /* Large font size for hero section heading */
+}
+
+/* Gallery3 section layout */
+.gallery3 {
+  display: flex;                  /* Flexbox layout */
+  align-items: top;               /* Align items at the top */
+  justify-content: space-between; /* Space between items */
+  margin-bottom: 20px;            /* Bottom margin */
+}
+
+/* Gallery3 images styling */
+.gallery3 img {
+  max-width: 50%;                 /* Image width is 50% of container */
+  border-radius: 40px;            /* Rounded corners */
+  margin-bottom: 80px;            /* Large bottom margin */
+  margin-top: 1px;                /* Small top margin */
+}
+
+/* Footer styling */
+footer {
+  background-color: #0d0d24;      /* Dark background for the footer */
+  color: #fff;                    /* White text */
+  text-align: center;             /* Center the text */
+  padding: 60px 0;                /* Padding on top and bottom */
+  width: 100%;                    /* Full width footer */
+  position: relative;             /* Footer stays at the bottom of the page */
+  bottom: 0;                      /* Aligns footer to the bottom */
+  left: 0;                        /* Aligns footer to the left */
+  margin: 0;                      /* Removes any margin */
+  box-sizing: border-box;          /* Ensures padding is included in total width/height */
+}

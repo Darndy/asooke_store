@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for character encoding and responsiveness -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta description for SEO purposes -->
     <meta name="description" content="Learn more about our company, our mission, and the team that makes it all possible.">
+    <!-- Title of the page -->
     <title>About Us</title>
+    <!-- Linking Bootstrap CSS for styling -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/css/about.css"> <!-- Link to the external CSS file -->
+    <!-- Link to an external CSS file for additional styles -->
+    <link rel="stylesheet" href="/static/css/about.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
+          <!-- Brand name or logo -->
           <a class="navbar-brand" href="#">Ajoke-Alasooke Store</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- Button for responsive navbar toggle -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Icon for the navbar toggle button -->
             <span class="navbar-toggler-icon" style="background-color: white;"></span>
           </button>
+          <!-- Navbar links -->
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
+              <!-- Home link -->
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home</a>
               </li>
+              <!-- About link -->
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
+              <!-- Services link -->
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
               </li>
+              <!-- Dropdown menu for additional links -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   More
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <!-- Login link -->
                   <a class="dropdown-item" href="#">Login</a>
+                  <!-- Sign up link -->
                   <a class="dropdown-item" href="#">Sign up</a>
                 </div>
               </li>
@@ -42,31 +60,43 @@
 
     <!-- Header Section -->
     <header class="header">
+        <!-- Main heading of the page -->
         <h1>About Us</h1>
     </header>
 
     <!-- Introduction Section -->
     <section class="intro">
+        <!-- Subheading -->
         <h2>Welcome to AJOKE ALASOOKE STORE</h2>
-        <p>As a developer, my passion for both technology and culture inspired me to 
+        <!-- Introduction paragraph -->
+        <p>
+            As a developer, my passion for both technology and culture inspired me to 
             create a platform that not only showcases the beauty of our local fabrics 
             but also celebrates the artistry behind traditional practices like gele styling. 
             I saw an opportunity to merge modern e-commerce with the rich heritage of our 
             fashion, offering a space where people can easily access unique fabrics and 
             expert services. By building this website, I aim to preserve and promote our 
             traditions while embracing the digital age.
-            Project Timeline:
-            - Concept & Planning (Week 1)
-            - Design & Development (Week 1-3)
-            - Testing & Refinement (Month 1)
-            - Launch & Deployment (Month 1-2)
+        </p>
+        <!-- Project timeline list -->
+        <p>
+            <strong>Project Timeline:</strong>
+            <ul>
+                <li>Concept & Planning (Week 1)</li>
+                <li>Design & Development (Week 1-3)</li>
+                <li>Testing & Refinement (Month 1)</li>
+                <li>Launch & Deployment (Month 1-2)</li>
+            </ul>
         </p>
     </section>
 
     <!-- Mission and Values Section -->
     <section class="mission">
+        <!-- Mission heading -->
         <h3>Our Mission</h3>
-        <p>We aim to celebrate and preserve the beauty of our cultural heritage through the 
+        <!-- Mission statement -->
+        <p>
+            We aim to celebrate and preserve the beauty of our cultural heritage through the 
             sale of premium local fabrics and expert gele styling services. We are committed 
             to offering high-quality products and services that reflect our rich traditions, 
             while embracing modern technology to create a seamless and enjoyable shopping 
@@ -76,17 +106,32 @@
 
     <!-- Team Section -->
     <section class="team">
+        <!-- Team section heading -->
         <h3>Founder</h3>
         <div class="container">
             <div class="row">
+                <!-- Team member profile -->
                 <div class="col-md-4 team-member">
+                    <!-- Profile image -->
                     <img src="/static/images/dandy.jpg" alt="Team Member 1">
+                    <!-- Team member name -->
                     <h4>GODONU DANIEL</h4>
+                    <!-- Position or title -->
                     <p>Founder & CEO</p>
+                    <!-- Social media links -->
                     <div class="social-links">
-                        <a href="https://x.com/Dandy_gwei" target="_blank"><i class="fab fa-twitter"></i> X</a>
-                        <a href="https://www.linkedin.com/in/daniel-godonu-12369022b/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                        <a href="https://github.com/Darndy" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <!-- Twitter link -->
+                        <a href="https://x.com/Dandy_gwei" target="_blank">
+                            <i class="fab fa-twitter"></i> X
+                        </a>
+                        <!-- LinkedIn link -->
+                        <a href="https://www.linkedin.com/in/daniel-godonu-12369022b/" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <!-- GitHub link -->
+                        <a href="https://github.com/Darndy" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
                     </div>
                 </div>
             </div>
@@ -95,12 +140,18 @@
 
     <!-- Footer Section -->
     <footer class="footer">
+        <!-- Footer content -->
         <p>&copy; 2024 AJOKE ALASOOKE. All rights reserved.</p>
     </footer>
 
+    <!-- JavaScript dependencies for Bootstrap -->
+    <!-- jQuery library -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <!-- Popper.js for tooltip and popover positioning -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript library -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>

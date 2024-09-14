@@ -1,102 +1,120 @@
+/* Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;  /* Sets the font to Arial with a default fallback */
+    line-height: 1.6;                /* Increases readability by setting line height */
+    margin: 0;                       /* Removes default margin */
+    padding: 0;                      /* Removes default padding */
+    background-color: #f4f4f4;       /* Light gray background color */
 }
 
+/* Custom Navbar Styling */
 .navbar-custom {
-    background-color: #0d0d24;
+    background-color: #0d0d24;       /* Dark background for the navigation bar */
 }
 
+/* Navbar links and branding */
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: #f5b506;
+    color: #f5b506;                  /* Yellow color for links and brand */
 }
 
+/* Hover effect on navbar links */
 .navbar-custom .nav-link:hover {
-    color: #0539e4;
+    color: #0539e4;                  /* Changes link color to blue on hover */
 }
 
+/* Header Section Styling */
 .header {
-    background-color: #b99908;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+    background-color: #b99908;       /* Gold background color for header */
+    color: white;                    /* White text */
+    padding: 20px 0;                 /* Padding on top and bottom */
+    text-align: center;              /* Centers the text */
 }
 
+/* Header Title Styling */
 .header h1 {
-    margin: 0;
-    font-size: 3em;
+    margin: 0;                       /* Removes margin around the heading */
+    font-size: 3em;                  /* Large font size for the main title */
 }
 
+/* Intro Section Styling */
 .intro {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #fff;
+    padding: 40px 20px;              /* Padding inside the intro section */
+    text-align: center;              /* Centers the text */
+    background-color: #fff;          /* White background */
 }
 
+/* Intro Heading Styling */
 .intro h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: 2.5em;                /* Large font size for the intro heading */
+    margin-bottom: 20px;             /* Space below the heading */
 }
 
+/* Intro Paragraph Styling */
 .intro p {
-    font-size: 1.2em;
-    color: #333;
-    max-width: 800px;
-    margin: 0 auto;
+    font-size: 1.2em;                /* Slightly larger text for readability */
+    color: #333;                     /* Dark gray text color */
+    max-width: 800px;                /* Limits the width of the paragraph */
+    margin: 0 auto;                  /* Centers the paragraph */
 }
 
+/* Mission Section Styling */
 .mission {
-    padding: 50px 20px;
-    background-color: #eaeaea;
+    padding: 50px 20px;              /* Padding inside the mission section */
+    background-color: #eaeaea;       /* Light gray background color */
 }
 
+/* Mission Heading Styling */
 .mission h3 {
-    text-align: center;
-    font-size: 2.2em;
-    margin-bottom: 20px;
+    text-align: center;              /* Centers the heading */
+    font-size: 2.2em;                /* Large font size for mission heading */
+    margin-bottom: 20px;             /* Space below the heading */
 }
 
+/* Mission Paragraph Styling */
 .mission p {
-    font-size: 1.2em;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+    font-size: 1.2em;                /* Slightly larger text for readability */
+    max-width: 800px;                /* Limits the width of the paragraph */
+    margin: 0 auto;                  /* Centers the paragraph */
+    text-align: center;              /* Centers the text inside the paragraph */
 }
 
+/* Team Section Styling */
 .team {
-    padding: 50px 20px;
+    padding: 50px 20px;              /* Padding inside the team section */
 }
 
+/* Team Heading Styling */
 .team h3 {
-    text-align: center;
-    margin-bottom: 40px;
+    text-align: center;              /* Centers the heading */
+    margin-bottom: 40px;             /* Space below the heading */
 }
 
+/* Team Member Container Styling */
 .team .team-member {
-    text-align: center;
-    margin-bottom: 30px;
+    text-align: center;              /* Centers each team member's info */
+    margin-bottom: 30px;             /* Space below each team member */
 }
 
+/* Team Member Image Styling */
 .team .team-member img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    border-radius: 50%;              /* Makes the image circular */
+    width: 150px;                    /* Sets the width of the image */
+    height: 150px;                   /* Sets the height of the image */
 }
 
+/* Team Member Name Styling */
 .team .team-member h4 {
-    margin-top: 10px;
+    margin-top: 10px;                /* Space above the name */
 }
 
+/* Footer Styling */
 .footer {
-    background-color: #0d0d24;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    background-color: #0d0d24;       /* Dark background color for the footer */
+    color: white;                    /* White text color */
+    text-align: center;              /* Centers the text in the footer */
+    padding: 20px 0;                 /* Padding inside the footer */
+    position: relative;              /* Keeps the footer in place */
+    bottom: 0;                       /* Positions the footer at the bottom */
+    width: 100%;                     /* Full width footer */
 }
