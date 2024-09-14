@@ -255,3 +255,9 @@ Permission: Allows for the use, copy, modification, merging, publishing, distrib
 Attribution: Requires the inclusion of the original copyright notice and permission notice in all copies or substantial portions of the Software.
 Warranty Disclaimer: The Software is provided "as is", without warranty of any kind. The authors are not liable for any claims, damages, or other liabilities.
 For more details, you can review the full text of the MIT License included in the LICENSE file in this repository.
+
+## Screenshots
+
+Here is a screenshot of the application:
+
+![Screenshot](static/images/asookescreenshot.png)
